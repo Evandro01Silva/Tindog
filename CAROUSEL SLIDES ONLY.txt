@@ -1,0 +1,35 @@
+<div id="testimonial-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000" data-bs-pause="hover">
+  <div class="carousel-inner">
+    <div class="carousel-item active" style="background-color: gray;">
+      <img src="..." class="d-block w-100" alt="...">
+      <p>item 1</p>
+    </div>
+    <div class="carousel-item" style="background-color: green;">
+      <img src="..." class="d-block w-100" alt="...">
+      <p>item 2</p>
+    </div>
+    <div class="carousel-item" style="background-color: #C70A80;">
+      <img src="..." class="d-block w-100" alt="...">
+      <p>item 3</p>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+-------------------------------------------------------------------------------
+
+.carousel-item {
+    height: 150px;
+}
+
+p {
+    color: yellow;
+    padding-left: 5%;
+}
