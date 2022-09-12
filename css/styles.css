@@ -132,3 +132,13 @@ h2{
   margin: 20px 20px 50px;
   width: 15%;
 }
+
+#pricing{
+  padding: 4% 8%;
+  margin: auto;
+}
+
+
+#enterprise{
+  background-color: #FFC107;
+}
