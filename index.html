@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 
 <head>
   <meta charset="utf-8">
@@ -46,13 +46,13 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="">Contact</a>
+              <a class="nav-link" href="#footer">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Pricing</a>
+              <a class="nav-link" href="#pricing">Pricing</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Download</a>
+              <a class="nav-link" href="#cta">Download</a>
             </li>
           </ul>
         </div>
@@ -62,9 +62,9 @@
 
       <div class="row">
         <div class="col-lg-6">
-          <h1>Meet new and interesting dogs nearby.</h1>
-          <button type="button" class="btn btn-dark download-button"><i class="fa-brands fa-apple"></i> Download</button>
-          <button type="button" class="btn btn-outline-light download-button"><i class="fa-brands fa-google-play"></i> Download</button>
+          <h1 id="meet">Meet new and interesting dogs nearby.</h1>
+          <button type="button" class="btn btn-dark download-button"><i class="icones-t fa-brands fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-outline-light download-button"><i class="icones-t fa-brands fa-google-play"></i> Download</button>
         </div>
         <div class="col-lg-6">
           <img class="title-image" src="images/iphone6.png" alt="iphone-mockup">
@@ -79,7 +79,7 @@
 
   <section id="features">
 
-    <div class="container-fluid">
+    <div class="container-fluid feat">
       <div class="row">
 
         <div class=" feature-box col-lg-4">
@@ -221,9 +221,9 @@
 
   <section id="cta">
 
-    <h3>Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
+    <h3 id="cta-description">Find the True Love of Your Dog's Life Today.</h3>
+    <button type="button" id="apple-d" class="btn btn-lg btn-dark btn-download"><i class="fa-brands fa-apple"></i> Download</button>
+    <button type="button" id="google-d" class="btn btn-lg btn-light btn-download"><i class="fa-brands fa-google-play"></i> Download</button>
 
   </section>
 
@@ -232,6 +232,10 @@
 
   <footer id="footer">
 
+    <i class="fa-brands fa-twitter social-icons"></i>
+    <i class="fa-brands fa-facebook social-icons"></i>
+    <i class="fa-brands fa-instagram social-icons"></i>
+    <i class="fa-solid fa-envelope social-icons"></i>
     <p>© Copyright TinDog</p>
 
   </footer>
